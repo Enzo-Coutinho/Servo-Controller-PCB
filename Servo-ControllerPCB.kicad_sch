@@ -1260,23 +1260,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J4"
+				(at 2.286 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
+			(property "Value" "Control Hub I2C"
+				(at 1.27 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1436,7 +1438,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1454,7 +1456,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1472,7 +1474,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1490,7 +1492,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2199,131 +2201,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2449,12 +2326,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "639d5106-695a-446a-88f4-f13bcb8743f5")
-	)
-	(junction
-		(at 138.43 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b6b92bf-1f4f-49a4-9e08-8bba56aa73aa")
 	)
 	(junction
 		(at 121.92 105.41)
@@ -2676,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 104.14 107.95)
+			(xy 100.33 107.95) (xy 105.41 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2823,16 +2694,6 @@
 			(type default)
 		)
 		(uuid "767e55cd-296b-4cbd-9a92-98583bd3f887")
-	)
-	(wire
-		(pts
-			(xy 176.53 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82587585-3903-432c-b809-2a265addc392")
 	)
 	(wire
 		(pts
@@ -3256,7 +3117,7 @@
 	)
 	(global_label "S3"
 		(shape output)
-		(at 104.14 107.95 0)
+		(at 105.41 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3266,7 +3127,7 @@
 		)
 		(uuid "ffdb7ac4-0aef-4f14-b80e-a7b3bf8c22f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5442 107.95 0)
+			(at 110.8142 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,72 +3136,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 138.43 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e888c08-5d89-4a1f-8d3d-4aec60c9907a")
-		(property "Reference" "#PWR01"
-			(at 138.43 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 138.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e238009-09f3-482e-8999-9a31f44ac3ab")
-		)
-		(instances
-			(project ""
-				(path "/225887a9-3da1-48bd-97b4-005cfad4064c"
-					(reference "#PWR01")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4234,89 +4029,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "SDA"
 			(uuid "38c159d3-b1e0-446d-971a-a7d0ae1abcb0")
 		)
-		(pin "2"
+		(pin "GND"
 			(uuid "cfd9b794-74a2-4003-81c9-128dfd859f06")
 		)
-		(pin "3"
+		(pin "3.3V"
 			(uuid "fcc19b36-8938-4419-a240-69d7b74b96d5")
 		)
-		(pin "4"
+		(pin "SCL"
 			(uuid "955175a9-52f1-4e68-b024-98a661c8c29e")
 		)
 		(instances
 			(project ""
 				(path "/225887a9-3da1-48bd-97b4-005cfad4064c"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee66d10c-3184-4a74-81a4-80a415c6ab90")
-		(property "Reference" "#PWR05"
-			(at 170.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79d680f9-beac-4396-88bb-e75e8c8fea8b")
-		)
-		(instances
-			(project "Servo-ControllerPCB"
-				(path "/225887a9-3da1-48bd-97b4-005cfad4064c"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
