@@ -3444,7 +3444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_Pad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
 			(at 187.96 114.3 0)
 			(effects
 				(font
@@ -3516,7 +3516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_Pad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
 			(at 187.96 139.7 0)
 			(effects
 				(font
@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_Pad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_Pad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
 			(at 97.79 106.68 0)
 			(effects
 				(font
@@ -4069,7 +4069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_Pad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
 			(at 97.79 77.47 0)
 			(effects
 				(font
@@ -4207,7 +4207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 190.5 97.79 0)
 			(effects
 				(font
@@ -4537,7 +4537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_Pad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
 			(at 187.96 127 0)
 			(effects
 				(font
