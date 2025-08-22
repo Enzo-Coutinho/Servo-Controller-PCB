@@ -1504,6 +1504,12 @@
 		(uuid "a1b277b2-d650-4ec3-bf39-9a1dc722d458")
 	)
 	(junction
+		(at 156.21 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96ecc31-26df-4644-a128-ec82734a433c")
+	)
+	(junction
 		(at 173.99 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1514,12 +1520,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c83ed5be-5d22-4947-a505-7b426fd45b36")
-	)
-	(junction
-		(at 153.67 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdfd2fce-a4a0-4cb3-88a6-72793a515d92")
 	)
 	(junction
 		(at 138.43 115.57)
@@ -1725,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 115.57) (xy 181.61 115.57)
+			(xy 138.43 115.57) (xy 181.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1865,6 +1865,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e6df03-7674-412a-900d-df4fc02bb155")
+	)
+	(wire
+		(pts
 			(xy 119.38 109.22) (xy 124.46 109.22)
 		)
 		(stroke
@@ -1895,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 161.29 74.93)
+			(xy 138.43 74.93) (xy 156.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1942,16 +1952,6 @@
 			(type default)
 		)
 		(uuid "78f9f771-3f94-4194-94a6-b2f937f1cad6")
-	)
-	(wire
-		(pts
-			(xy 153.67 105.41) (xy 153.67 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e288a95-8657-40c8-b5cf-45e8b5b2e496")
 	)
 	(wire
 		(pts
@@ -2032,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "9a6171ff-61ea-4f6c-945f-7ae546cc9b8d")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4dae23-90f7-4ccf-9565-895deea786cd")
 	)
 	(wire
 		(pts
@@ -2155,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 105.41) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6618c38-9f5d-429f-ad96-0133c38fa120")
+	)
+	(wire
+		(pts
 			(xy 119.38 96.52) (xy 128.27 96.52)
 		)
 		(stroke
@@ -2232,16 +2252,6 @@
 			(type default)
 		)
 		(uuid "fd0bfde1-adc1-46b2-abc8-f8d4c41cd240")
-	)
-	(wire
-		(pts
-			(xy 138.43 115.57) (xy 153.67 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd2dfb1-1674-4b24-b473-d6c122ff4f24")
 	)
 	(global_label "S2"
 		(shape output)
